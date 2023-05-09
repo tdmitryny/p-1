@@ -38,12 +38,12 @@ password_string = ""
 for str in password_list:
     password_string += str
 
-print(password_string)
 
 
 
 
 
 
-print("Here is your password")
+
+print(f"Here is your password {password_string}")
 

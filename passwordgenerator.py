@@ -18,7 +18,7 @@ for char in range(1, letters_input + 1):
     password_list += randnon_char
     
 
-for sym in range(1, symbols_input + 1):
+for sym in range(1, symbols_input + 1): 
     password_ran = random.choice(symbols)
     password_list += password_ran
     
@@ -26,6 +26,7 @@ for sym in range(1, symbols_input + 1):
 for num in range(1, numbers_input + 1):
     random_num = random.choice(numbers)
     password_list += random_num
+
 
 
 
